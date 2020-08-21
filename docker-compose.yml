@@ -1,0 +1,9 @@
+---
+version: '3.8'
+
+services:
+  jq:
+    build:
+      context: .
+      args:
+        JQ_VERSION: 1.6
